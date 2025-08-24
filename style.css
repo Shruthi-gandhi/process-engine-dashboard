@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+}
+.topbar {
+  background: #2b2b40;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabs button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background: #444;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.tabs button.active {
+  background: #007bff;
+}
+.dashboard {
+  display: flex;
+}
+.canvas {
+  flex: 3;
+  padding: 20px;
+}
+.start-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.process-card {
+  background: #2b2b40;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.number {
+  font-size: 24px;
+  font-weight: bold;
+}
+.bar {
+  height: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.green { background: #28a745; width: 80%; }
+.yellow { background: #ffc107; width: 60%; }
+.red { background: #dc3545; width: 40%; }
+.output-box {
+  display: inline-block;
+  background: #333;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.sidebar {
+  flex: 1;
+  background: #2b2b40;
+  padding: 20px;
+  border-left: 2px solid #444;
+}
+.activity {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.activity img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #2b2b40;
+  margin-top: 20px;
+}
